@@ -1,0 +1,39 @@
+.item {
+  color: white;
+  background-color: #606c38;
+  border: 2px solid #606c38;
+  margin: 25px 200px;
+  width: 80%;
+  height: 100px;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.lista {
+  background-color: #283618;
+  margin: 50px auto;
+  list-style-type: none;
+  border-radius: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 400px) {
+  .lista {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .item {
+    min-width: 250px;
+    max-width: 250px;
+  }
+}
